@@ -1,0 +1,7 @@
+[
+  "(IsTrustnetUnit eq true and IsTrustnetFund eq true) and Category ne 'AIP' and Category ne 'NIP' and Category ne 'RIP' and Category ne 'COP' and Currency ne 'CPS' and UniverseCodeList/any(u: u eq 'T')",
+  "IsEditorsPick eq true and ShowOnSite eq true and PublicationDate le 2020-04-30T00:00:00Z and ChannelId eq 23 and (ExpiryDate eq null or ExpiryDate ge 2020-04-30T00:00:00Z) and PublicationDate ge 2020-03-30T00:00:00Z and IsRetail eq true",
+  "FundCode eq 'ITSMT' and UniverseCodeList/any(univ: univ eq 'T') and (IsTrustnetUnit eq true and IsTrustnetFund eq true) and Category ne 'AIP' and Category ne 'NIP' and Category ne 'RIP' and Category ne 'COP'",
+  "ShowOnSite eq true and PublicationDate le 2020-04-30T12:31:37Z and PublicationDate ge 2019-04-30T12:31:37Z and ChannelId eq 23 and (ExpiryDate eq null or ExpiryDate ge 2020-04-30T12:31:37Z) and IsRetail eq true and (FundCodeList/any(fundcode: fundcode eq 'ITSMT') or SectorCodeList/any(sectorcode: sectorcode eq 'T:IG') or GroupCodeList/any(groupcode: groupcode eq 'BAIL'))",
+  "ShowOnSite eq true and PublicationDate le 2020-04-30T12:31:39Z and PublicationDate ge 2019-04-30T12:31:39Z and ChannelId eq 23 and (ExpiryDate eq null or ExpiryDate ge 2020-04-30T12:31:39Z) and IsAdvisor eq true and (FundCodeList/any(fundcode: fundcode eq 'ITSMT') or SectorCodeList/any(sectorcode: sectorcode eq 'T:IG') or GroupCodeList/any(groupcode: groupcode eq 'BAIL'))"
+] 
