@@ -59,7 +59,7 @@ of code.
 
 publish:
 
-    invoke publish 0.1.1
+    invoke publish 0.1.1 --pypi
 
 **Links**
 
